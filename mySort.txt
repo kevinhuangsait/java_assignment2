@@ -1,0 +1,11 @@
+/**
+ * Cocktail sorting. This is a variation of bubble sort, where the algorith passes through arrays
+ * in both directions once through. The first loop goes from left to right and is very similar to the bubble sort.
+ * Compared items are swapped if the left is greater than the right. At the end of the loop, the largest number
+ * ends up at the end of the array. Following this, the algorithm sorts again in the opposite direction. It starts
+ * from the item before the most recently sorted item and goes back right to left through the array. The same
+ * comparisons and swapping happens but in the other direction.
+ * 
+ * Worst and Average Case Time Complexity: O(n*n)
+ * Best Case Time Complexity: O(n) when array is already sorted.
+ * 
